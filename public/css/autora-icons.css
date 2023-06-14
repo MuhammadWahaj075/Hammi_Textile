@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Hammi-Architectureicon';
+  src:  url('../font/autoraicond44c.eot?77c5li');
+  src:  url('../font/autoraicond44c.eot?77c5li#iefix') format('embedded-opentype'),
+    url('../font/autoraicond44c.ttf?77c5li') format('truetype'),
+    url('../font/autoraicond44c.woff?77c5li') format('woff'),
+    url('../font/autoraicond44c.svg?77c5li#Hammi-Architectureicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="Hammi-Architecture-icon-"], [class*=" Hammi-Architecture-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Hammi-Architectureicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Hammi-Architecture-icon-author:before {
+  content: "\e900";
+}
+.Hammi-Architecture-icon-author-outline:before {
+  content: "\e901";
+}
+.Hammi-Architecture-icon-build:before {
+  content: "\e902";
+}
+.Hammi-Architecture-icon-build-home:before {
+  content: "\e903";
+}
+.Hammi-Architecture-icon-building-outline:before {
+  content: "\e904";
+}
+.Hammi-Architecture-icon-camera-outline:before {
+  content: "\e905";
+}
+.Hammi-Architecture-icon-check-circle-outline:before {
+  content: "\e906";
+}
+.Hammi-Architecture-icon-concrete:before {
+  content: "\e907";
+}
+.Hammi-Architecture-icon-facebook:before {
+  content: "\e908";
+}
+.Hammi-Architecture-icon-hat-outline:before {
+  content: "\e909";
+}
+.Hammi-Architecture-icon-long-arrow-right:before {
+  content: "\e90a";
+}
+.Hammi-Architecture-icon-phone-contact:before {
+  content: "\e90b";
+}
+.Hammi-Architecture-icon-quality:before {
+  content: "\e90c";
+}
+.Hammi-Architecture-icon-time:before {
+  content: "\e90d";
+}
+.Hammi-Architecture-icon-twitter:before {
+  content: "\e90e";
+}
