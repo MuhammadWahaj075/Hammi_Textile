@@ -9,6 +9,7 @@ import insta_3 from "../../assets/img/instagram/instagram-3-83x83.jpg"
 import insta_4 from "../../assets/img/instagram/instagram-4-83x83.jpg"
 import insta_5 from "../../assets/img/instagram/instagram-5-83x83.jpg"
 import insta_6 from "../../assets/img/instagram/instagram-6-83x83.jpg"
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -269,20 +270,20 @@ const Footer = () => {
             <div class="bottom-bar-menu">
               <ul class="bottom-nav">
                 <li class="menu-item ">
-                  <a href="index.html">HOME</a>
+                  <Link to="/">HOME</Link>
                 </li>
                 <li class="menu-item current-menu-item">
-                  <a href="page-about-detail.html">ABOUT US</a>
+                  <Link to="about-us">ABOUT US</Link>
                 </li>
                 <li class="menu-item">
-                  <a href="page-services.html">SERVICES</a>
+                  <Link to="services">SERVICES</Link>
                 </li>
                 <li class="menu-item">
-                  <a href="page-projects.html">PROJECTS</a>
+                  <Link to="/projects">PROJECTS</Link>
                 </li>
 
                 <li class="menu-item">
-                  <a href="page-contact.html">CONTACT</a>
+                  <Link to="/contact">CONTACT</Link>
                 </li>
               </ul>
             </div>

@@ -58,7 +58,7 @@ const NavBar = () => {
               <nav id="main-nav" className="main-nav">
                 <ul id="menu-primary-menu" className="menu">
                   <li className="menu-item menu-item-has-children current-menu-item">
-                    <Link to="/" >HOME</Link>
+                    <Link to="/">HOME</Link>
                   </li>
                   <li className="menu-item menu-item-has-children">
                     <Link to="/about-us">ABOUT US </Link>
@@ -75,8 +75,6 @@ const NavBar = () => {
                   </li>
                 </ul>
               </nav>
-
-            
             </div>
           </div>
         </header>
