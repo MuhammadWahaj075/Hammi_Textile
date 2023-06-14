@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/img/logo-small.png";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -58,52 +58,25 @@ const NavBar = () => {
               <nav id="main-nav" className="main-nav">
                 <ul id="menu-primary-menu" className="menu">
                   <li className="menu-item menu-item-has-children current-menu-item">
-                    <a href="index.html">HOME</a>
+                    <Link to="/" >HOME</Link>
                   </li>
                   <li className="menu-item menu-item-has-children">
-                    <a href="page-about-detail.html">ABOUT US </a>
+                    <Link to="/about-us">ABOUT US </Link>
                   </li>
                   <li className="menu-item menu-item-has-children">
-                    <a href="page-services.html">SERVICES</a>
+                    <Link to="/services">SERVICES</Link>
                   </li>
                   <li className="menu-item menu-item-has-children">
-                    <a href="page-projects.html">PROJECTS</a>
+                    <Link to="/projects">PROJECTS</Link>
                   </li>
 
                   <li className="menu-item menu-item-has-children">
-                    <a href="page-contact.html">CONTACT</a>
+                    <Link to="/contact">CONTACT</Link>
                   </li>
                 </ul>
               </nav>
 
-              <div id="header-search">
-                <a href="#" className="header-search-icon">
-                  <span className="search-icon fa fa-search"></span>
-                </a>
-
-                <form
-                  role="search"
-                  method="get"
-                  className="header-search-form"
-                  action="#"
-                >
-                  <label className="screen-reader-text">Search for:</label>
-                  <input
-                    type="text"
-                    value=""
-                    name="s"
-                    className="header-search-field"
-                    placeholder="Search..."
-                  />
-                  <button
-                    type="submit"
-                    className="header-search-submit"
-                    title="Search"
-                  >
-                    <i className="fa fa-search"></i>
-                  </button>
-                </form>
-              </div>
+            
             </div>
           </div>
         </header>
